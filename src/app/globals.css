@@ -32,26 +32,6 @@ a:active {
   color: #911f3a;
 }
 
-.wrapper {
-  max-width: 1024px;
-  padding: 0 0.75rem;
-  margin: 0 auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 h1, h2, h3, p {
 	margin: 0 0 10px 0;
 	color: black;
@@ -73,39 +53,3 @@ h2 {
 h3 {
 	font-weight: bold;
 }
-img {
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
-table, td, tr, tbody, thead {
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
-table {
-	border-collapse: collapse;
-}
-
-
-
-
-
-
-/*
-
-#center {
-	background: url('center.png') white repeat-y;
-}
-#left {
-	float: left;
-	width: 232px;
-	padding: 10px;
-}
-#right {
-	margin-left: 252px;
-	background: url('gradient.png') white repeat-x;
-	min-height: 400px;
-	padding: 10px;
-}
- */
