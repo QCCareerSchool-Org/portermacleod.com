@@ -1,13 +1,13 @@
 import { SetNav } from "@/components/setNav";
 import { Split } from "@/components/split";
 
-export default function Home() {
+export default function About() {
   return (
     <>
-      <SetNav nav="home" />
+      <SetNav nav="about" />
       <Split>
-        <h1>Porter &amp; MacLeod Collection Agency</h1>
+      <h1>About the Company</h1>
       </Split>
     </>
-  );
+  )
 }

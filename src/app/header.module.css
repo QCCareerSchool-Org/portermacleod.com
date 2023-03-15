@@ -1,0 +1,9 @@
+.header {
+	background: url('/top.png') #434c58 no-repeat;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.nav {
+	padding: 154px 0 0 399px;
+}

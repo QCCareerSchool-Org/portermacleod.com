@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.main {
+  flex: 1 1 auto;
+  background: url('/gradient.png') white repeat-x;
+}
+
+.padding {
+  margin: 10px;
+  min-height: 400px;
+}
+
+.aside {
+  display: flex;
+  align-items: stretch;
+  margin-right: 10px;
+}

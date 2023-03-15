@@ -1,0 +1,11 @@
+.sidebar {
+  width: 242px;
+  background-color: #ced3d9;
+  display: flex;
+  justify-content: stretch;
+  align-self: stretch;
+}
+
+.padding {
+  margin: 10px
+}
