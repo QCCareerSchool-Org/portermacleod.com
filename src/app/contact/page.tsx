@@ -1,9 +1,11 @@
-import { SetNav } from "@/components/setNav";
-import { Split } from "@/components/split";
-import Image from "next/image";
-import ContactPicture from './contact-picture.png';
+import Image from 'next/image';
+import type { ReactNode } from 'react';
 
-export default function Contact() {
+import ContactPicture from './contact-picture.png';
+import { SetNav } from '@/components/setNav';
+import { Split } from '@/components/split';
+
+export default function Contact(): ReactNode {
   return (
     <>
       <SetNav nav="contact" />
@@ -13,5 +15,5 @@ export default function Contact() {
         <p><strong>Porter & MacLeod Collection Agency</strong><br />PO Box 7222<br />Ottawa ON&nbsp; K1L 8E3<br />Canada</p>
       </Split>
     </>
-  )
+  );
 }

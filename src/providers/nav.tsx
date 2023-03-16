@@ -9,7 +9,7 @@ export const NavStateContext = createContext<Nav | null | undefined>(undefined);
 export const NavDispatchContext = createContext<Dispatch<SetStateAction<Nav | null>> | undefined>(undefined);
 
 export const NavProvider: FC<PropsWithChildren> = ({ children }) => {
-  const [Nav, setNav] = useState<Nav | null>(null);
+  const [ Nav, setNav ] = useState<Nav | null>(null);
 
   return (
     <NavStateContext.Provider value={Nav}>
@@ -18,4 +18,4 @@ export const NavProvider: FC<PropsWithChildren> = ({ children }) => {
       </NavDispatchContext.Provider>
     </NavStateContext.Provider>
   );
-}
+};

@@ -6,4 +6,4 @@ export const Footer: FC = () => (
   <footer className={style.footer}>
     © {new Date().getFullYear()} Porter &amp; MacLeod Collection Agency
   </footer>
-)
+);

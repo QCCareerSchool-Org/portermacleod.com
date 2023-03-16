@@ -5,7 +5,7 @@ import style from './split.module.css';
 
 type Props = {
   sidebarContent?: ReactNode;
-}
+};
 
 export const Split: FC<PropsWithChildren<Props>> = ({ sidebarContent, children }) => (
   <div className={style.wrapper}>
@@ -18,4 +18,4 @@ export const Split: FC<PropsWithChildren<Props>> = ({ sidebarContent, children }
       </div>
     </main>
   </div>
-)
+);

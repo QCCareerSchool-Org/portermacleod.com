@@ -1,7 +1,9 @@
+import type { ReactNode } from 'react';
+
 import { SetNav } from '@/components/setNav';
 import { Split } from '@/components/split';
 
-export default function Home() {
+export default function Home(): ReactNode {
   return (
     <>
       <SetNav nav="home" />

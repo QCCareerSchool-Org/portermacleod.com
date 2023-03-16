@@ -1,18 +1,20 @@
-import './globals.css'
+import type { ReactNode } from 'react';
+
+import './globals.css';
+import { Footer } from './footer';
+import { Header } from './header';
 import style from './layout.module.css';
 import { Providers } from '@/providers';
-import { Header } from './header';
-import { Footer } from './footer';
 
 type Props = {
-  children: React.ReactNode
-}
+  children: ReactNode;
+};
 
 export const metadata = {
   title: 'Porter & MacLeod Collection Agency',
-}
+};
 
-export default function RootLayout({ children }: Props) {
+export default function RootLayout({ children }: Props): ReactNode {
   return (
     <Providers>
       <html lang="en">
@@ -25,5 +27,5 @@ export default function RootLayout({ children }: Props) {
         </body>
       </html>
     </Providers>
-  )
+  );
 }

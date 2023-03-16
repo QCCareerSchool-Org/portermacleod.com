@@ -9,4 +9,4 @@ export const Providers: FC<PropsWithChildren> = ({ children }) => (
       {children}
     </NavProvider>
   </>
-)
+);
